@@ -1,0 +1,352 @@
+.fondo{
+    background-color: #0F0F0F;
+}
+.nav{
+    background-color: #0F0F0F;
+}
+.enlases{
+text-decoration: none;
+color: #f7f7f7;
+padding: 60px;
+font-family: arial;
+font-size: 20px;
+}
+
+/* Estilo del menú */
+.menu {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0px;
+    background-color: #4CAF50; /* Color del menú */
+  }
+  .menu {
+    margin-bottom: 20px;}
+  .menu li {
+    float: left;
+    position: relative;
+  }
+  
+  .menu li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu li a:hover {
+    background-color: #3e8e41; /* Color al pasar el cursor */
+  }
+  
+  /* Submenú */
+  .submenu {
+    display: none; /* Escondemos el submenú por defecto */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+    background-color: #4CAF50;
+    z-index: 1000;
+  }
+  
+  .submenu li {
+    width: 200px;
+  }
+  
+  .submenu li a {
+    padding: 10px 20px;
+  }
+  
+  .menu li:hover .submenu {
+    display: block; /* Mostramos el submenú al pasar el cursor */
+  }
+.titulo{
+    color: #89EF78;
+    text-align: center;
+    font-family: arial;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 20px;
+    
+}
+.divtitulo{
+    background-color: #0F0F0F;
+    text-align: center;
+}
+.imgtitulo{
+    text-align: center;
+    height: 300px;
+}
+.intro{
+    
+    color: #f7f7f7;
+    text-align: center;
+    font-size: 40px;
+}
+.Ubicacion{
+    color: #89EF78;
+}
+.ubi{
+    color:#89EF78
+}
+.ubi2{
+    color: #f7f7f7;
+}
+.wats{
+    font-size: 25px;
+    color:#f7f7f7
+}
+.encuesta{
+    color: #f7f7f7;
+    font-size: 25px;
+}
+@media (min-width: 300px) and (max-width: 700px){
+.enlases{
+    display: flex;
+    padding: 10px;
+
+}
+.mapa{
+
+    width: 400px;
+}
+}
+
+/* seccion nosotros */
+.titulo2{
+    color: #76e064;
+    text-align: center;
+    font-size: 45px;
+}
+.mision{
+    color: #f7f7f7;
+    font-size: 30px;
+}
+.imgmision{
+    justify-content: center;
+    width: 600px;
+    height: auto;
+}
+.vision{
+    color: #f7f7f7;
+    font-size: 30px;
+}
+.imgvision{
+    text-align: center;
+    width: 300px;
+    height: auto;
+    
+}
+.imgmision2{
+    text-align: center;
+}
+.imgvision2{
+    text-align: center;
+}
+@media (min-width: 300px) and (max-width: 700px){
+    .imgmision{
+        
+        width: 300px;
+        height: auto;
+    }
+    .mision{
+        font-size: 20px;
+    }
+    .vision{
+        font-size: 20px;
+    }
+}
+
+/* membrecias */
+.titulo3{
+    text-align: center;
+    color: #89EF78;
+    font-size: 50px;
+}
+.plan1{
+    color:#0F0F0F;
+}
+.precio{
+    color:#0F0F0F;
+}
+.boton1{
+    cursor: pointer;
+
+    
+}
+.boton2{
+     
+        display: inline-block;
+        padding: 10px 20px; /* Tamaño del botón */
+        background-color:#f7f7f7; /* Color de fondo */
+        color:#000000; /* Color del texto */
+        text-decoration: none; /* Elimina el subrayado */
+        border-radius: 5px; /* Esquinas redondeadas */
+        font-size: 16px; /* Tamaño del texto */
+        text-align: center; /* Centra el texto */
+    }
+    
+    .boton:hover {
+        background-color: #3e8e41; /* Cambio de color al pasar el cursor */
+    }
+    
+
+.divplan{
+    display:table-cell;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #185f0f;
+    padding: 10px;
+    gap: 20px;
+    border: 2px solid black; 
+    margin: 10px; 
+    padding: 15px; 
+}
+.imgmembresia1{
+        width: 300px; /* Cambia el ancho a 300 píxeles */
+        height: auto; /* Ajusta automáticamente la altura para mantener las proporciones */
+}
+.imgmembresia2{
+    width: 342px;
+}
+.imgmembresia3{
+    width: 389px;
+}
+
+.imgme{
+    text-align: center;
+}
+.divb{
+    text-align: center;
+}
+.contacnosotros{
+    color: #f7f7f7;
+}
+@media (min-width: 300px) and (max-width: 700px){
+    .divplan{
+        display:list-item;
+    }
+    .plan1{ 
+        font-size: 15px;
+    }
+    .imgmembresia1{
+        width: 150px;
+        height: 200px;
+    }
+    .boton1{
+        cursor: pointer;
+    }
+}
+/* entrenadores */
+.titulo4{
+    color: #89EF78;
+    font-size: 50px;
+    text-align: center;
+    font-family: arial;
+}
+.textentrenador{
+    color: #f7f7f7;
+}
+.entre{
+    text-align: center;
+}
+.imgentre{
+    text-align: center;
+}
+.imgentrenador{
+    width: 800px;
+}
+.divplan2{
+    display:table-cell;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #578350;
+    padding: 10px;
+    gap: 20px;
+    border: 2px solid black; 
+    margin: 10px; 
+    padding: 15px; 
+}
+
+.boton1{
+    cursor: pointer;
+    text-align: center;
+}
+@media (min-width: 300px) and (max-width: 700px){
+    .imgentrenador{
+        width: 400px;
+        text-align: center;
+    }
+    .divplan2{
+        display:list-item;
+    }
+    .precioe{
+        font-size: 13px;
+    }
+    .plan1{
+        font-size: 15px;
+    }
+    .plan2{
+        font-size: 14px;
+
+    }
+    .boton1{
+        cursor: pointer;
+        text-align: center;
+    }
+}
+/* spa */
+.divplan3{
+    display:table-cell;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #578350;
+    padding: 10px;
+    gap: 20px;
+    border: 2px solid black; 
+    margin: 10px; 
+    padding: 15px; 
+}
+
+.titulo5{
+    color: #89EF78;
+    text-align: center;
+    font-family: arial;
+    font-size: 50px;
+}
+.textospa{
+    color: #f7f7f7;
+    font-size: 25px;
+}
+.imgspa{
+    text-align: center;
+}
+@media (min-width: 300px) and (max-width: 700px){
+    .divplan3{
+        display: list-item;
+    }
+}
+/* encuesta */
+.Regresar{
+    color: #f7f7f7;
+    font-size: 20px;
+}
+.encuesta{
+    background-color: #0F0F0F;
+}
+.encuesta2{
+    color: #f7f7f7;
+    text-align: center;
+
+}
+.botregreso{
+    color:#89EF78;
+}
+.titencuesta{
+    color: #89EF78;
+}
+.gracias{
+    color:#89EF78;
+    text-align: center;
+}
+.bot{
+    text-align: center;
+}
